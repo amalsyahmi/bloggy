@@ -3,12 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 5rem;
+  padding-top: 5rem;
   font-size: 2rem;
+}
+
+.subtitle p {
+  text-align: center;
+  font-size: small;
+  font-weight: bold;
+  
 }
 
 .main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
-  grid-gap: 3rem;
+  grid-gap: 2rem;
 }

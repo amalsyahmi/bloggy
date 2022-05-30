@@ -47,6 +47,30 @@
     margin: 2rem 0rem;
     border-radius: 2rem;
   }
+
+  .content h5 {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+
+  .content table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .content th, .content td {
+    text-align: left;
+    padding: 8px;
+  }
+  
+  .content tr:nth-child(even){background-color: #f2f2f2}
+  
+  .content th, .content th p {
+    background-color: #04AA6D;
+    color: white;
+  }
   
   @media screen and (max-width: 768px) {
     .blog {
